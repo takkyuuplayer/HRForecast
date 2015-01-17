@@ -1,1 +1,1 @@
-web; carton exec -- perl hrforecast.pl --config config.pl
+web: coffee web.coffee
