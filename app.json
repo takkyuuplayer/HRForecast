@@ -1,7 +1,7 @@
 {
     "name": "tp-hrforecast"
     ,"env": {
-        "BUILDPACK_URL": "https://github.com/miyagawa/heroku-buildpack-perl/tree/carton"
+        "BUILDPACK_URL": "http://github.com/pnu/heroku-buildpack-perl.git"
     }
     ,"scripts":{
         "postinstall": "carton install; carton exec -- perl migration.pl --config config.pl"
