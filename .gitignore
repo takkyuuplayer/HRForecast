@@ -20,3 +20,5 @@ MYMETA.*
 !Build/
 !META.json
 !LICENSE
+/local/
+cpanfile.snapshot
