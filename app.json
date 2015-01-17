@@ -1,12 +1,14 @@
 {
-    "name": "tp-hrforecast"
-    ,"env": {
+    "name": "tp-hrforecast",
+    "description": "HRForecast in Heroku",
+    "repository": "https://github.com/takkyuuplayer/HRForecast",
+    "env": {
         "BUILDPACK_URL": "http://github.com/pnu/heroku-buildpack-perl.git"
-    }
-    ,"scripts":{
+    },
+    "scripts":{
         "postinstall": "carton exec -- perl migration.pl --config=config.pl"
-    }
-    ,"addons": [
+    },
+    "addons": [
         "cleardb"
     ]
 }
