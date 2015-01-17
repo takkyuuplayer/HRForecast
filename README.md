@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # NAME
 
 HRForecast - A Graphing/Visualization Tool
