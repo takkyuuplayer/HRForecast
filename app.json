@@ -1,7 +1,7 @@
 {
     "name": "tp-hrforecast",
     "description": "HRForecast in Heroku",
-    "repository": "https://github.com/takkyuuplayer/HRForecast",
+    "repository": "https://github.com/takkyuuplayer/HRForecast#deploy-to-heroku",
     "env": {
         "BUILDPACK_URL": "http://github.com/pnu/heroku-buildpack-perl.git"
     },
