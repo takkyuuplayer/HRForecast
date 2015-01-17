@@ -9,6 +9,6 @@
         "postinstall": "carton exec -- perl migration.pl --config=config.pl"
     },
     "addons": [
-        "cleardb"
+        "cleardb:ignite"
     ]
 }
