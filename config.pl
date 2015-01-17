@@ -17,7 +17,7 @@ if ($ENV{CLEARDB_DATABASE_URL} =~ m,mysql://(.*):(.*)@(.*)/(.*),) {
 
 %conf = (
     %$c,
-    (   port => '5000',
+    (   port => $ENV{PORT},
 
         #host => '127.0.0.1',
         front_proxy => [],
