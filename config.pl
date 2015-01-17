@@ -12,8 +12,6 @@ if ($ENV{CLEARDB_DATABASE_URL} =~ m,mysql://(.*):(.*)@(.*)/(.*),) {
     my ($username, $password, $hostname, $database) = ($1, $2, $3, $4);
     $c->{username} = $username;
     $c->{password} = $password;
-    $c->{hostname} = $hostname;
-    $c->{database} = $database;
     $database =~ s/(.*)\?(.*)/$1/;
     $c->{dsn} = sprintf "dbi:mysql:database=%s:host=%s", $database, $hostname;
 }
