@@ -1,1 +1,1 @@
-web: carton exec -- perl hrforecast.pl --config=config.pl
+web: perl hrforecast.pl --config=config.pl
