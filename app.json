@@ -4,7 +4,7 @@
         "BUILDPACK_URL": "http://github.com/pnu/heroku-buildpack-perl.git"
     }
     ,"scripts":{
-        "postinstall": "carton exec -- perl migration.pl --config config.pl"
+        "postinstall": "carton exec -- perl migration.pl --config=config.pl"
     }
     ,"addons": [
         "cleardb"
